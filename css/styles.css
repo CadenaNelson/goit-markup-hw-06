@@ -363,6 +363,7 @@ a {
     position: absolute;
     color: var(--color-texto-principal);
     width: 528px;
+    height: 581px;
     background-color: var(--color-texto-terceario);
     border-radius: 4px;
     top: 50%;
@@ -372,7 +373,7 @@ a {
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    }
+}
 
 .but-close{
     position: absolute;
@@ -532,7 +533,7 @@ label{
     border: 0;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 /*-------Sección de beneficios y servicios--------------------------------*/
@@ -683,7 +684,6 @@ label{
     fill: var(--color-texto-terceario);
     cursor: pointer;   
 } 
-
 /*----------------------CLIENTES REGULARES-----------------------*/
 .icon-list{
     display: flex;
@@ -722,7 +722,6 @@ label{
     transition-timing-function: cubic-bezier( 0.4, 0, 0.2, 1);
     transition-delay: 0;
 } 
-
  /*--------------------FOOTER--------------------------*/
 .link-study-footer{
     color: var(--color-texto-secundario);
