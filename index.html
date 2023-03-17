@@ -83,38 +83,32 @@
                                     <label for="user_message" class="modal-form-field"  >Comentarios</label>
                                     <textarea class="text-message"  type="text" id="user-message" name="user-message" placeholder="Introduzca el texto" maxlength="400" rows="7"></textarea>   
                                 </div>
-
-                                <div >
-                                    <!--<label for="user_check" class="check">
-                                        <input class="checkbox-input" type="checkbox" id="checkbox"  name="policy" value="accept">
-                                        <svg class="check-icon" width="16px" height="15px">
+                                <div>
+                                    <label class="modal-form-label label-checkbox">
+                                        <input
+                                          class="modal-form-label-checkbox"
+                                          type="checkbox"
+                                          name="checked"
+                                          value="agreed"
+                                        />
+                                        <span class="checkbox-icon-container">
+                                          <svg class="checkbox-icon" width="11" height="8">
                                             <use href="./images/icons.svg/sprite.svg#icon-checkbox"></use>
-                                        </svg><span class="policy">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</span>                               
-                                    </label>-->
-
-                                    <label for="" class="modal-form-label label-checkbox">
-                                        <input class="modal-form-label-checkbox"  type="checkbox" name="checkbox" id="checkbox" value="agrred" checked>
-                                        <span class="heckbox-icon-container">
-                                            <svg class="checkbox-icon" width="16px" height="15px" onclick="document.getElementById('checkbox').click()">
-                                                <use href="./images/icons.svg/sprite.svg#icon-checkbox"></use>
-                                            </svg> </span>
-                                            <span class="checkbox-text">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</span>
-                                    </label>
+                                          </svg> </span>
+                                          <span class="checkbox-text">Estoy de acuerdo con el boletín informativo y acepto los
+                                          Términos y Condiciones</span>
+                                    </label>  
                                 </div>
-
-
                                 <button class="but-submit" type="submit">Enviar</button>
                             </div>
-                        
                         </form>
                           
-                            <button 
                         <button class="but-close" data-modal-close>
                             <a href="#" class="icon-close-modal">
                             <svg class="icon-close" width="20px" height="20px">
                                 <use href="./images/icons.svg/sprite.svg#icon-close-btn-mob"></use>
-                            </a>
                             </svg>
+                            </a>
                         </button>
                     </div>
                 </div>    
