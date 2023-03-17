@@ -60,41 +60,50 @@
                                 <h2 class="title-form">Deje sus datos, nos contactaremos con usted</h2>
                                 <div>
                                     <label for="user_name">Nombre</label>
-                                    <input type="text" id="nombre" name="nombre" required>
+                                    <input  class="input-form"  type="text" id="nombre" name="nombre" required>
                                     <svg class="icon-form" width="18px" height="18px">
                                         <use href="./images/icons.svg/sprite.svg#icon-person-black"></use>
                                     </svg>
                                 </div>
                                 <div>
                                     <label for="user_phone">Teléfono</label>
-                                    <input type="tel" id="phone" name="phone_number" required> 
+                                    <input class="input-form" type="tel" id="phone" name="phone_number" required> 
                                     <svg class="icon-form" width="18px" height="18px">
                                         <use href="./images/icons.svg/sprite.svg#icon-phone-black"></use>
                                     </svg>
                                 </div>
                                 <div>
                                     <label for="user_email">E-mail</label>
-                                    <input type="email" id="email" name="email" required> 
+                                    <input class="input-form" type="email" id="email" name="email" required> 
                                     <svg class="icon-form" width="18px" height="18px">
                                         <use href="./images/icons.svg/sprite.svg#icon-email-black"></use>
                                     </svg>
                                 </div>
                                 <div>
-                                    <label for="user_coment">Comentarios</label>
-                                    <input class="input-coment"  type="text" id="comentarios" name="comentarios" placeholder="Introduzca el texto" maxlength="100" >   
+                                    <label for="user_message" class="modal-form-field"  >Comentarios</label>
+                                    <textarea class="text-message"  type="text" id="user-message" name="user-message" placeholder="Introduzca el texto" maxlength="400" rows="7"></textarea>   
                                 </div>
 
                                 <div >
-                                    <label for="user_check" class="check">
+                                    <!--<label for="user_check" class="check">
                                         <input class="checkbox-input" type="checkbox" id="checkbox"  name="policy" value="accept">
                                         <svg class="check-icon" width="16px" height="15px">
                                             <use href="./images/icons.svg/sprite.svg#icon-checkbox"></use>
                                         </svg><span class="policy">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</span>                               
+                                    </label>-->
+
+                                    <label for="" class="modal-form-label label-checkbox">
+                                        <input class="modal-form-label-checkbox"  type="checkbox" name="checkbox" id="checkbox" value="agrred" checked>
+                                        <span class="heckbox-icon-container">
+                                            <svg class="checkbox-icon" width="16px" height="15px" onclick="document.getElementById('checkbox').click()">
+                                                <use href="./images/icons.svg/sprite.svg#icon-checkbox"></use>
+                                            </svg> </span>
+                                            <span class="checkbox-text">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</span>
                                     </label>
                                 </div>
 
 
-                                <button class="bot-submit" type="submit">Enviar</button>
+                                <button class="but-submit" type="submit">Enviar</button>
                             </div>
                         
                         </form>

@@ -420,19 +420,14 @@ label{
     text-align: left;
     margin: 10px 0 4px;
 }
-input{
+.input-form{
     position: relative;
-    top: 0;
-    display: inline-block;
     width: 100%;
     height: 40px;
     border: 1px solid #dad8d8; 
     border-radius: 5px;
     padding-left: 36px;
     cursor: pointer;
-}
-input[type="text"]{
-    vertical-align: top; 
 }
 .icon-form{
     position: absolute;
@@ -474,22 +469,24 @@ input[type="text"]{
     fill: var(--color-texto-secundario);
 }
 
-.input-coment{
-    height: 130px;
+.text-message{
+    width: 100%;
+    height: 120px;
     border: 1px solid #dad8d8; 
     border-radius: 5px;
+    resize: none;
 }
-#comentarios:hover,
-#comentarios:focus{
+#user-message:hover,
+#user-message:focus{
     border: 2px solid var(--color-texto-secundario);
 }
 
 
-.checkbox-input{
+/*/*.checkbox-input{
     display: none;
     /*-webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;*/
+    appearance: none;
 }
 .check-icon{
     position: relative;
@@ -508,10 +505,10 @@ input[type="text"]{
     background-color: #2196F3;
 }
 /*.checkbox-input:focus + check-icon{
-    border: 1px solid red;*/
+    border: 1px solid red;
 
-.checkbox-input:focus + .check,
-.checkbox-input:checked + .check{
+.checkbox-input:focus + .check-icon,
+.checkbox-input:checked + .check-icon{
     background-color: var(--color-texto-secundario)  ;
 }
 .form-policy{
@@ -520,12 +517,55 @@ input[type="text"]{
     line-height: 1.71;
     color: #757575;
     text-align: left;
-    
 }
+*/
 
+.label-checkbox {
+    flex-direction: row;
+    margin-bottom: 0;
+    align-items: center;
+  }
+  
+  .checkbox-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    width: 16px;
+    height: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 2px;
+    fill: red;
+  }
+  
+  .modal-form-label-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+  .modal-form-label-checkbox:checked + .checkbox-icon-container {
+    border-color:2px solid black; ;
+    background-color: -#2196F3;
+  }
+  modal-form-label-checkbox:focus + .checkbox-icon-container {
+    border-color:2px solid black; ;
+    background-color: -#2196F3;
 
-
-.bot-submit{
+    }
+  .checkbox-icon {
+    border: 2px solid #000000; 
+    background-color: gray;
+  }
+  .checkbox-text {
+    line-height: 1.71;
+  }
+  .but-submit{
     color: var(--color-texto-terceario);
     background-color: var(--background-color-principal);
     font-weight: 700;
@@ -537,9 +577,9 @@ input[type="text"]{
     border: 0;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 15px;
 }
-
-
+  
 /*-------Sección de beneficios y servicios--------------------------------*/
 
 .icons-benefist{
