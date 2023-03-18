@@ -472,6 +472,7 @@ label{
     border: 1px solid #dad8d8; 
     border-radius: 5px;
     resize: none;
+    padding: 16px 12px;
 }
 #user-message:hover,
 #user-message:focus{
@@ -843,13 +844,14 @@ label{
     }
 
 /*---------------Formulario footer----------*/
-.title-form-footer{
+.form-label-footer{
     color: var(--color-texto-terceario);
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .form-input-footer{
     
@@ -863,6 +865,7 @@ label{
     background-color: #2F303A;
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 5px;
+    padding: 15px 16px;
 }
 .but-subscrib-footer{
     position: absolute;
@@ -881,12 +884,13 @@ label{
     margin-left: 10px;
     border: 0;
     border-radius: 5px;
+    padding-right: 30px;
 }
 .icon-suscribir{
     position: relative;
     top: 8px;
     right: 0;
-    left: 160px;   
+    left: 150px;   
 }
 
 /*--------------------PÁGINA DE PORTAFOLIO------------------------*/
