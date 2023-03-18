@@ -429,6 +429,7 @@ label{
     border-radius: 5px;
     padding-left: 36px;
     cursor: pointer;
+    outline: none;
 }
 .icon-form{
     position: absolute;
@@ -473,6 +474,7 @@ label{
     border-radius: 5px;
     resize: none;
     padding: 16px 12px;
+    outline: none;
 }
 #user-message:hover,
 #user-message:focus{
@@ -844,7 +846,7 @@ label{
     }
 
 /*---------------Formulario footer----------*/
-.form-label-footer{
+.title-form-footer{
     color: var(--color-texto-terceario);
     font-family: 'Roboto';
     font-weight: 700;
@@ -854,7 +856,6 @@ label{
     margin-bottom: 20px;
 }
 .form-input-footer{
-    
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Roboto';
     font-weight: 400;
@@ -868,7 +869,6 @@ label{
     padding: 15px 16px;
 }
 .but-subscrib-footer{
-    position: absolute;
     display: inline-block;
     color: var(--color-texto-terceario);
     background-color: var(--background-color-principal);
@@ -884,13 +884,14 @@ label{
     margin-left: 10px;
     border: 0;
     border-radius: 5px;
-    padding-right: 30px;
+    padding-right: 60px;
+    padding-bottom: 5px;
 }
 .icon-suscribir{
     position: relative;
     top: 8px;
     right: 0;
-    left: 150px;   
+    left: 130px;   
 }
 
 /*--------------------PÁGINA DE PORTAFOLIO------------------------*/
