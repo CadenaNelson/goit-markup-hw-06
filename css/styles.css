@@ -846,6 +846,7 @@ label{
     }
 
 /*---------------Formulario footer----------*/
+
 .title-form-footer{
     color: var(--color-texto-terceario);
     font-family: 'Roboto';
@@ -867,9 +868,16 @@ label{
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 5px;
     padding: 15px 16px;
+    outline: none;
 }
+.form-footer{
+    display: flex;
+}
+
 .but-subscrib-footer{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--color-texto-terceario);
     background-color: var(--background-color-principal);
     font-family: 'Roboto';
@@ -884,14 +892,11 @@ label{
     margin-left: 10px;
     border: 0;
     border-radius: 5px;
-    padding-right: 60px;
-    padding-bottom: 5px;
 }
 .icon-suscribir{
-    position: relative;
     top: 8px;
     right: 0;
-    left: 130px;   
+    margin-left: 20px;   
 }
 
 /*--------------------PÁGINA DE PORTAFOLIO------------------------*/
@@ -1018,7 +1023,6 @@ label{
     text-align: center;
     align-items: center;
 }
-
 .title-h3{
     font-size: 18px;
     width: 322px;
